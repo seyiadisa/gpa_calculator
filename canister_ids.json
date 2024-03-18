@@ -1,0 +1,8 @@
+{
+  "canister_backend": {
+    "ic": "oufko-4aaaa-aaaak-qddeq-cai"
+  },
+  "canister_frontend": {
+    "ic": "o5gbs-kiaaa-aaaak-qddfa-cai"
+  }
+}
