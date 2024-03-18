@@ -1,6 +1,41 @@
 body {
   font-family: sans-serif;
   font-size: 1.5rem;
+  color: #333;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+div.parent {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  width: 60vw;
+}
+
+// div.parent div {
+// }
+
+input {
+  padding: 5px 10px;
+  width: auto;
+  font-size: 16px;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+select {
+  padding: 5px 10px;
+  width: auto;
 }
 
 img {
@@ -9,29 +44,31 @@ img {
   display: block;
   margin: auto;
 }
+ ul {
+  list-style-type: none;
+  padding: 0!important;
+ }
 
-form {
-  display: flex;
-  justify-content: center;
-  gap: 0.5em;
-  flex-flow: row wrap;
-  max-width: 40vw;
-  margin: auto;
-  align-items: baseline;
+button {
+  padding: 5px 20px;
+  margin: 10px auto;
+  background-color: white;
+  border: 1px solid #333;
+  font-size: 16px;
+  margin-left: 20px;
 }
 
 button[type="submit"] {
-  padding: 5px 20px;
-  margin: 10px auto;
-  float: right;
+  border: none;
+  color: white;
+  background-color: #02012e;
 }
 
-#greeting {
+#result {
   margin: 10px auto;
   padding: 10px 60px;
-  border: 1px solid #222;
 }
 
-#greeting:empty {
+#result:empty {
   display: none;
 }
